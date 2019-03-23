@@ -1,0 +1,6 @@
+<!-- Changing the color using RGB values to change colors using numbers 0 to 255 -->
+<style>
+body {
+  background-color: rgb(0, 0, 0);
+}
+</style>
