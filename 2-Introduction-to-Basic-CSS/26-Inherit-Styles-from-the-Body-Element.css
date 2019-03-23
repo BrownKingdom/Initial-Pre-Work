@@ -1,0 +1,10 @@
+<!-- inserting styles into the body element also including a h1 element changed text color & font -->
+<style>
+  body {
+    background-color: black;
+    color: green;
+    font-family: monospace;
+  }
+
+</style>
+<h1>Hello World</h1>
