@@ -1,15 +1,24 @@
-<!-- sub-properties access by chaining together dot or bracket notations. -->
+<!-- Array brackets notations can also be chained to access nested arrays. -->
 // Setup
-var myStorage = {
-  "car": {
-    "inside": {
-      "glove box": "maps",
-      "passenger seat": "crumbs"
-     },
-    "outside": {
-      "trunk": "jack"
-    }
-  }
-};
+var myPlants = [
+  { 
+    type: "flowers",
+    list: [
+      "rose",
+      "tulip",
+      "dandelion"
+    ]
+  },
+  {
+    type: "trees",
+    list: [
+      "fir",
+      "pine",
+      "birch"
+    ]
+  }  
+];
 
-var gloveBoxContents = myStorage.car.inside["glove box"]; // Change this line
+// Only change code below this line
+
+var secondTree = myPlants[1].list[1];// Change this line
