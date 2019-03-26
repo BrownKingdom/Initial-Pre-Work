@@ -1,4 +1,4 @@
-<!-- make creating complex strings easier. -->
+<!-- watch my spaces once again in the curly brackets. -->
 const stats = {
   max: 56.78,
   standard_deviation: 4.34,
