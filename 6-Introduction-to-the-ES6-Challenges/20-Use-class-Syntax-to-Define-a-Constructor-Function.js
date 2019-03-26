@@ -1,10 +1,15 @@
-<!-- adding support for defining object literal. -->
-const createPerson = (name, age, gender) => {
+function makeClass() {
   "use strict";
-  // change code below this line
- 
-const createPerson = (name, age, gender) => ( { name, age, gender });
-
-  // change code above this line
-};
-console.log(createPerson("Zodiac Hasbro", 56, "male")); // returns a proper object
+  /* Alter code below this line */
+class Vegetable {
+  constructor(name){
+    this.name = name;
+  }
+}
+  /* Alter code above this line */
+  return Vegetable;
+}
+const Vegetable = makeClass();
+const carrot = new Vegetable('carrot');
+console.log(carrot.name); // => should be 'carrot'
+<!-- class used with constructor  --> 
