@@ -4,36 +4,36 @@
 
 ## When we hit https://www.techtonic.com/ what happens? Don’t focus too much on architecture (Monolithic, SOA, Microservices, etc.). Try to focus more on how the web functions in general terms/steps.
 
-put your answer here
+My browser collects the information about the link and pings the server and checks if the link exist then connects it.
 
 ## From start to finish, how does data reach you to be rendered in the browser?
 
-put your answer here
+Information goes to the browser engine, figures what to display based on the search request.  Information from my computer is sent in packets, in bytes then put back together as to determine what language it is speaking whether html, css, js (tokens) so it can be display properly. Browsers open html files before anything else happens.  Then any styles that were created must be pushed through cssom to be readable.  Next the math needs to be computed to make sure that the size fit the way the designer intended. Then some render-block (but I do not know much about that).  Finally javascript has it's turn. When script is encountered it will stop all other processes until it is found.  Once my browser renders my html, css, & js, I can view my requested page.
 
 ## What code is rendered in the browser?
 
-put your answer here
+html
 
 ## What is the server-side code’s main function?
 
-put your answer here
+Designing websites so that the information requested is run on the originating server.
 
 ## What is the client-side code’s main function?
 
-put your answer here
+It is used to run scripts on the users computer. So, information I request is sent to my computer from the web's server.
 
 ## What is runtime?
 
-put your answer here
+The amount of time it takes a program to run, from opening to closing.
 
 ## How many instances of the client-side assets (HTML, CSS, JS, Images, etc.) are created?
 
-put your answer here
+I know that they are also referred to as static files and I believe it has to do with rendering a website.  Making it easier to reload and stores requested information.
 
 ## How many instances of the server-side code are available at any given time?
 
-put your answer here
+2? server processing and page postback.
 
 ## How many instances of the databases connected to the server application are created?
 
-put your answer here
+Multiple, connection required to send commands then receive information back. However, I am not fully familiar with the magic of the internet.  I did read a database connection article on Wikipedia.
